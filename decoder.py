@@ -22,9 +22,9 @@ fword = len(start)
 sword = len(middle)
 tword = len(end)
 
-estart = start [fword:0]
-emiddle = middle [sword:0]
-eend = end [tword:0]
+estart = start.inverse()
+emiddle = middle.inverse()
+eend = end.inverse()
 
 bob = len(estart)
 jeff = len(emiddle)
