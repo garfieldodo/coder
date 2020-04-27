@@ -1,1 +1,1 @@
-# the two files coder and decoder are supposed to be on pig latin. coder asks the user to enter a setence of three words in english and then changes those words to pig latin.
+# the two files coder and decoder are supposed to be on pig latin. coder asks the user to enter a setence of three words in english and then changes those words to pig latin. for decoder, im still working on it but it's supposed to change three words of pig latin into three words of english
