@@ -1,3 +1,18 @@
+def reverse(c): 
+  str = "" 
+  for i in e: 
+    str = i + str
+  return str
+def reverse(b): 
+  str = "" 
+  for i in e: 
+    str = i + str
+  return str
+def reverse(a): 
+  str = "" 
+  for i in e: 
+    str = i + str
+  return str
 def reverse(m): 
   str = "" 
   for i in m: 
@@ -52,21 +67,18 @@ bob = len(estart)
 jeff = len(emiddle)
 tom = len(eend)
 
-print (estart)
-print (emiddle)
-print (eend)
 
 pstart = estart [0:2]
 sstart = estart [0:3]
-bstart = estart [3:4]
+bstart = estart [2:3]
 
 pmiddle = emiddle [0:2]
 smiddle = emiddle [0:3]
-bmiddle = emiddle [3:4]
+bmiddle = emiddle [2:3]
 
 pend = eend [0:2]
 send = eend [0:3]
-bend = eend [3:4]
+bend = eend [2:3]
 
 if sstart == ("yaw"):
     newword = estart [3:bob]
@@ -78,19 +90,21 @@ if smiddle == ("yaw"):
     twonewword = emiddle [3:jeff]
 else:
     if pmiddle == ("ya"):
-        twonewword = emiddle [3:bob] + bmiddle
+        twonewword = emiddle [3:jeff] + bmiddle
 
 if send == ("yaw"):
-    thirdnewword = eend [3:bob]
+    thirdnewword = eend [3:tom]
 else:
     if pend == ("ya"):
-        thirdnewword = eend [3:bob] + bend
+        thirdnewword = eend [3:tom] + bend
 
-first = len(newword)
-second = len(twonewword)
-third = len(thirdnewword)
+a = newword
+b = twonewword
+c = thirdnewword
 
-newsentence = newword [first:0] + twonewword [secnd:0] + thirdnewword [third:0]
+a = (reverse(a))
+b = (reverse(b))
+c = (reverse(c))
+
+newsentence = a + " " + b + " " + c
 newsentence = newsentence.lower()
-
-print (newsentence)
