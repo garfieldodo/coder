@@ -72,7 +72,7 @@ if sstart == ("yaw"):
     newword = estart [3:bob]
 else:
     if pstart == ("ya"):
-        newword = estart [3:bob] + bstar
+        newword = estart [3:bob] + bstart
 
 if smiddle == ("yaw"):
     twonewword = emiddle [3:jeff]
