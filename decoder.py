@@ -1,6 +1,18 @@
-def reverse(s): 
+def reverse(m): 
   str = "" 
-  for i in s: 
+  for i in m: 
+    str = i + str
+  return str
+
+def reverse(e): 
+  str = "" 
+  for i in e: 
+    str = i + str
+  return str
+
+def reverse(t): 
+  str = "" 
+  for i in t: 
     str = i + str
   return str
 
@@ -28,9 +40,13 @@ fword = len(start)
 sword = len(middle)
 tword = len(end)
   
-s = start
+m = start
+e = middle
+t = end
      
-estart = (reverse(s))
+estart = (reverse(m))
+emiddle = (reverse(e))
+eend = (reverse(t))
 
 bob = len(estart)
 jeff = len(emiddle)
