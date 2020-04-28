@@ -1,3 +1,9 @@
+def reverse(s): 
+  str = "" 
+  for i in s: 
+    str = i + str
+  return str
+
 #this prepares to turn the words from arrays into strings
 def listToString(s):
     str1 = ""
@@ -21,10 +27,10 @@ end = listToString(end)
 fword = len(start)
 sword = len(middle)
 tword = len(end)
-
-estart = start.inverse()
-emiddle = middle.inverse()
-eend = end.inverse()
+  
+s = start
+     
+estart = (reverse(s))
 
 bob = len(estart)
 jeff = len(emiddle)
